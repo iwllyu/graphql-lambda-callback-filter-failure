@@ -1,0 +1,23 @@
+{
+  "name": "graphql-lambda-callback-filter-failure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register ./src/**/*.test.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^0.10.1",
+    "graphql-server-lambda": "^1.1.0",
+    "graphql-tools": "^1.2.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.4",
+    "@types/node": "^8.0.28",
+    "chai": "^4.1.2",
+    "tslint-config-airbnb": "^5.2.1",
+    "typescript": "^2.5.2"
+  }
+}
